@@ -15,8 +15,13 @@ public class App
 	private static final Logger LOGGER=LogManager.getLogger(App.class);
     public static void main( String[] args )
     {
+<<<<<<< HEAD
     		@SuppressWarnings("resource")
 			Scanner sc=new Scanner(System.in);
+=======
+    		Scanner sc=new Scanner(System.in);
+    		
+>>>>>>> second commit
     		SimpleInterest s=new SimpleInterest();
     		s.getValues();
     		LOGGER.info(s.CalculateSimpleInterest());
